@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { Github, Linkedin, Mail, MapPin, Calendar, ExternalLink, Code, Database, Globe, Terminal, Download, Menu, X } from 'lucide-react';
+import { Code, Menu, X } from 'lucide-react';
 
 import Welcome from './components/welcome';
 import About from './components/About';
