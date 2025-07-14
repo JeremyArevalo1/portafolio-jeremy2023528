@@ -7,42 +7,42 @@ export default function ProjectsGallery() {
   const projects = [
     {
       id: 1,
-      image: '/src/assets/image/cap1.png',
+      image: '../../public/assets/image/cap1.png',
       title: 'Videntia',
       description: 'Esta fue una App en la cual colabore con compañeros del colegio en el cual trataba de la implementacion de IA y consejos de como mantenerte seguro en internet.',
       github: 'https://github.com/JeremyArevalo1/ExpoKinal.git'
     },
     {
       id: 2,
-      image: '/src/assets/image/cap2.png',
+      image: '../../public/assets/image/cap2.png',
       title: 'Gestor de Hoteles',
       description: 'Este proyecto fue creado en grupo con unos compañeros del colegio el cual trata de la gestion y reservacion de hoteles en donde trabajamos tanto frontend como backend.',
       github: 'https://github.com/JeremyArevalo1/Hoteles.git'
     },
     {
       id: 3,
-      image: '/src/assets/image/cap3.png',
+      image: '../../public/assets/image/cap3.png',
       title: 'Blog de Aprendizaje',
       description: 'Esta App trata de que puedes hacer comentarios en las publicaciones y fue desarrollada con react trabajando tanto frontend como backend y guardando los comentarios en MongoDB',
       github: 'https://github.com/JeremyArevalo1/Blogdeaprendizaje.git'
     },
     {
       id: 4,
-      image: '/src/assets/image/cap4.png',
+      image: '../../public/assets/image/cap4.png',
       title: 'Gestor de Opiniones',
       description: 'Esta App trata de crear publicaciones y agregarle comentarios, esta App solo fue trabajada en lo que es backend y todo se almacena en la base de datos MongoDB.',
       github: 'https://github.com/JeremyArevalo1/Gestor-de-opiniones.git'
     },
     {
       id: 5,
-      image: '/src/assets/image/cap5.png',
+      image: '../../public/assets/image/cap5.png',
       title: 'Venta Online',
       description: 'Esta App es solo backend en la cual puedes crear tus productos, categorias y tu carrito de compras esta App es un poco mas compleja y todos los datos se guardan en la base de datos MongoDB.',
       github: 'https://github.com/JeremyArevalo1/venta-online-PB.git'
     },
     {
       id: 6,
-      image: '/src/assets/image/cap6.png',
+      image: '../../public/assets/image/cap6.png',
       title: 'Coperex',
       description: 'Esta App es solo backend y realiza gestiones de empresas en la cual nos muestra los diferentes niveles de impacto y años de experincias y ademas de eso crea un documento en exel que nos lista todas las empresas agergadas con sus clientes y los datos se almacenane en MongoDB.',
       github: 'https://github.com/JeremyArevalo1/Analisis-de-Caso-COPEREX.git'
