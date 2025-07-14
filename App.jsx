@@ -2,12 +2,12 @@ import React from 'react';
 import { useState } from 'react';
 import { Code, Menu, X } from 'lucide-react';
 
-import Welcome from './components/welcome';
-import About from './components/About';
-import Skills from './components/Skills';
-import Curriculum from './components/Curriculum';
-import ProjectsGallery from './components/ProyectsGalery';
-import SocialLinks from './components/SocialLinks';
+import Welcome from './src/components/welcome';
+import About from './src/components/About';
+import Skills from './src/components/Skills';
+import Curriculum from './src/components/Curriculum';
+import ProjectsGallery from './src/components/ProyectsGalery';
+import SocialLinks from './src/components/SocialLinks';
 
 export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
