@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Code, Menu, X } from 'lucide-react';
 
-import Welcome from './src/components/welcome';
+import Welcome from './src/components/Welcome';
 import About from './src/components/About';
 import Skills from './src/components/Skills';
 import Curriculum from './src/components/Curriculum';
