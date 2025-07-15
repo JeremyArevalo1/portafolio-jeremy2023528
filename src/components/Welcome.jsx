@@ -37,7 +37,7 @@ export default function Welcome() {
             Ver Proyectos
           </a>
           <a
-            href="/cv/jeremy-arevalo-cv.pdf"
+            href="/assets/CV/CV Jeremy Arévalo.pdf"
             download
             className="border border-white/30 hover:bg-white/10 px-8 py-3 rounded-full font-semibold transition-all duration-300 backdrop-blur-sm text-center"
           >
