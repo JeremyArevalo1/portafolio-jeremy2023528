@@ -9,7 +9,7 @@ export default function About() {
           <div>
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Sobre mí</h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Soy Jeremy Jair Arévalo Gómez, tengo 18 años y soy estudiante de 6º bachillerato con una fuerte inclinación hacia el desarrollo de software. Mis lenguajes de programación preferidos son Java y JavaScript, y tengo un particular interés en la creación de aplicaciones con React. Me dedico a estudiar y a aplicar lo que aprendo día tras día, y disfruto mucho de todo lo relacionado con las matemáticas. Mi entorno de ejecución de cabecera es Node.js, lo que me permite desarrollar soluciones backend eficientes.
+              Soy Jeremy Jair Arévalo Gómez, tengo 18 años y soy estudiante de 6º Perito con una fuerte inclinación hacia el desarrollo de software. Mis lenguajes de programación preferidos son Java y JavaScript, y tengo un particular interés en la creación de aplicaciones con React. Me dedico a estudiar y a poner en practica todo lo que aprendo día tras día, y disfruto mucho de todo lo relacionado con las matemáticas. Mi entorno de ejecución de cabecera es Node.js, lo que me permite desarrollar soluciones backend eficientes.
             </p>
             
             <div className="space-y-4">

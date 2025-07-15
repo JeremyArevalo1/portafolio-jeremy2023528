@@ -9,42 +9,42 @@ export default function ProjectsGallery() {
       id: 1,
       image: '/assets/image/cap1.png',
       title: 'Videntia',
-      description: 'Esta fue una App en la cual colabore con compañeros del colegio en el cual trataba de la implementacion de IA y consejos de como mantenerte seguro en internet.',
+      description: 'Esta aplicación fue un proyecto escolar en el que colaboré con compañeros. Se centraba en la implementación de inteligencia artificial y ofrecía consejos sobre cómo mantenerse seguro en internet.',
       github: 'https://github.com/JeremyArevalo1/ExpoKinal.git'
     },
     {
       id: 2,
       image: '/assets/image/cap2.png',
       title: 'Gestor de Hoteles',
-      description: 'Este proyecto fue creado en grupo con unos compañeros del colegio el cual trata de la gestion y reservacion de hoteles en donde trabajamos tanto frontend como backend.',
+      description: 'Este proyecto grupal, desarrollado con compañeros del colegio, se enfoca en la gestión y reserva de hoteles. Trabajamos tanto en el frontend como en el backend de la aplicación.',
       github: 'https://github.com/JeremyArevalo1/Hoteles.git'
     },
     {
       id: 3,
       image: '/assets/image/cap3.png',
       title: 'Blog de Aprendizaje',
-      description: 'Esta App trata de que puedes hacer comentarios en las publicaciones y fue desarrollada con react trabajando tanto frontend como backend y guardando los comentarios en MongoDB',
+      description: 'Esta aplicación permite a los usuarios hacer comentarios en las publicaciones. Fue desarrollada con React, abarcando tanto el frontend como el backend, y los comentarios se guardan en MongoDB.',
       github: 'https://github.com/JeremyArevalo1/Blogdeaprendizaje.git'
     },
     {
       id: 4,
       image: '/assets/image/cap4.png',
       title: 'Gestor de Opiniones',
-      description: 'Esta App trata de crear publicaciones y agregarle comentarios, esta App solo fue trabajada en lo que es backend y todo se almacena en la base de datos MongoDB.',
+      description: 'Esta aplicación permite crear publicaciones y añadir comentarios. Se trabajó únicamente en el backend, y toda la información se almacena en la base de datos MongoDB.',
       github: 'https://github.com/JeremyArevalo1/Gestor-de-opiniones.git'
     },
     {
       id: 5,
       image: '/assets/image/cap5.png',
       title: 'Venta Online',
-      description: 'Esta App es solo backend en la cual puedes crear tus productos, categorias y tu carrito de compras esta App es un poco mas compleja y todos los datos se guardan en la base de datos MongoDB.',
+      description: 'Esta aplicación es solo de backend y permite crear productos, categorías y gestionar un carrito de compras. Es un proyecto más complejo y todos los datos se guardan en la base de datos MongoDB.',
       github: 'https://github.com/JeremyArevalo1/venta-online-PB.git'
     },
     {
       id: 6,
       image: '/assets/image/cap6.png',
       title: 'Coperex',
-      description: 'Esta App es solo backend y realiza gestiones de empresas en la cual nos muestra los diferentes niveles de impacto y años de experincias y ademas de eso crea un documento en exel que nos lista todas las empresas agergadas con sus clientes y los datos se almacenane en MongoDB.',
+      description: 'Esta aplicación, desarrollada solo en backend, realiza la gestión de empresas. Muestra los diferentes niveles de impacto y años de experiencia, y además crea un documento en Excel que lista todas las empresas añadidas con sus clientes. Los datos se almacenan en MongoDB.',
       github: 'https://github.com/JeremyArevalo1/Analisis-de-Caso-COPEREX.git'
     },
   ];
@@ -83,8 +83,8 @@ export default function ProjectsGallery() {
       </div>
 
       {modalProject && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-sm bg-black/80 p-4">
-          <div className="relative w-full max-w-7xl">
+        <div className="fixed inset-0 z-50 flex items-center justify-center backdrop-blur-sm bg-black/80 p-4 overflow-y-auto">
+          <div className="relative w-full max-w-7xl max-h-screen">
             <button
               onClick={() => setModalProject(null)}
               className="absolute top-4 right-4 bg-gray-800 hover:bg-gray-700 text-white rounded-full p-2 shadow-lg transition-all"
@@ -98,6 +98,7 @@ export default function ProjectsGallery() {
               alt={modalProject.title}
               className="w-full max-h-[95vh] object-contain rounded-xl border border-gray-700 shadow-2xl"
             />
+
 
             <div className="mt-4 text-center">
               <h3 className="text-2xl font-bold">{modalProject.title}</h3>
