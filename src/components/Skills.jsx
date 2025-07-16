@@ -1,14 +1,21 @@
 import React from 'react';
 
 export default function Skills() {
-  const skills = [
-    { name: "React", level: 80, color: "from-blue-500 to-cyan-500" },
-    { name: "Node.js", level: 70, color: "from-green-500 to-emerald-500" },
-    { name: "MongoDB", level: 65, color: "from-green-600 to-teal-600" },
-    { name: "HTML/CSS", level: 85, color: "from-orange-500 to-red-500" },
-    { name: "JavaScript", level: 75, color: "from-yellow-500 to-orange-500" },
-    { name: "Git", level: 70, color: "from-purple-500 to-pink-500" },
-  ];
+const skills = [
+  { name: "React", level: 80, color: "from-blue-500 to-cyan-500" },
+  { name: "Node.js", level: 75, color: "from-green-500 to-emerald-500" },
+  { name: "MongoDB", level: 85, color: "from-green-600 to-teal-600" },
+  { name: "HTML", level: 80, color: "from-orange-500 to-red-500" },
+  { name: "CSS", level: 80, color: "from-blue-500 to-indigo-500" },
+  { name: "JavaScript", level: 80, color: "from-yellow-500 to-orange-500" },
+  { name: "Git", level: 85, color: "from-purple-500 to-pink-500" },
+  { name: "Express", level: 75, color: "from-neutral-500 to-zinc-600" },
+  { name: "SQL", level: 85, color: "from-sky-600 to-blue-700" },
+  { name: "Spring Boot", level: 75, color: "from-lime-500 to-green-600" },
+  { name: "Java", level: 80, color: "from-red-600 to-orange-600" },
+  { name: "JavaFX", level: 75, color: "from-indigo-600 to-purple-600" }
+];
+
 
   return (
     <section className="py-20 bg-white">
